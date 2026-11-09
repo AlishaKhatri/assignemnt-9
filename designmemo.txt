@@ -1,0 +1,11 @@
+Assignment #9: Build a Social Network
+
+For this assignment, I created a social network using a graph data structure in Python. I used two classes called Person and SocialNetwork. Each person is represented as a node, and the friendships between people are represented as edges. I used a dictionary to store all the people and a list to store each person's friends.
+
+I think a graph is the best choice for a social network because one person can have many friends, and those friends can also be connected to other people. Friendships work in both directions, so I made sure that when one person becomes friends with another, both of their friend lists are updated.
+
+A regular list would not be as useful because it would be harder to manage connections between different people. A tree would also not work as well because it follows a parent-child structure. In a social network, people can have many different connections without following a specific hierarchy.
+
+One thing I noticed while writing the code is that using a dictionary makes it easier to find people by their names. Adding friendships is also simple because I only need to update two lists. However, checking for duplicate friendships could take longer if someone has a large number of friends. Printing the entire network would also take more time as the network grows.
+
+Overall, this assignment helped me understand how graphs work and how they can be used to represent relationships between people in real life.
